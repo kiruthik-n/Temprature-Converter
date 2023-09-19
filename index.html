@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEMPRATURE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body style="background-image: url(back.jpg); background-size: cover;background-blend-mode:luminosity;">
+    <div class="main">
+        <div class="head" style="background-color: antiquewhite;">
+            <center><div style="font-family:'Times New Roman', Times, serif; color: black;"><h2><u>Temprature Convertor</u></h2></div> </center><br> <br>
+    
+            <div class="options">
+                <select class="select" id="select">
+                    <option value="fahrenheit">Fahrenheit (°F)</option>
+                    <option value="celsius">Celsius (°C)</option>
+                    <option value="kelvin">Kelvin (K)</option>
+                    </select>  &nbsp; <b style="color: black;font-family:'Times New Roman', Times, serif;font-size: x-large;">-To-</b>&nbsp;&nbsp;
+                <select class="select" id="select2">
+                    <option value="celsius">Celsius (°C) </option>
+                    <option value="fahrenheit">Fahrenheit (°F)</option>
+                    <option value="kelvin">Kelvin (K)</option>
+                    </select> 
+            </div>
+            <div class="input">
+                <br><br> 
+                <center><input type="text" name="input" id="input" placeholder="Enter Here" required> <br> <br> <br>
+                <button type="button" id="conv" class="btn btn-success" onclick="convert()">Convert</button> <br> <br><br></center>
+            </div>
+                <center><div id="output" class="output"></div></center>
+            <br><br>
+    </div>
+    
+        
+    </div>
+    <center><div style="color: white;">© Created by Kiruthik Kumar N</div></center>
+    
+
+
+
+
+
+
+<script src="temp.js"></script>
+</body>
+</html>

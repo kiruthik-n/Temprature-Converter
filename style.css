@@ -1,0 +1,61 @@
+.main{
+    display: block;
+    margin: 70px auto;
+    width: 425px;
+    height: 80%;
+}
+.select{
+text-align: center;
+font-size:large;
+color:white;
+background-color: rgba(68,68,68,0.90);
+font-weight: bold;
+border-radius: 8px;
+border-color: white;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.options{
+display: block;
+width:400px;
+margin-left: auto;
+margin-right: auto;
+border-color: black;
+}
+.input{
+background-color: antiquewhite;
+}
+#input{
+background-color: antiquewhite;
+border-radius: 15px;
+font-size: larger;
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+padding: 0.5rem; ;
+font-weight: bold;
+width: 150px;
+border:solid;
+}
+
+#conv{
+font-size: larger;
+font-weight: bold;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.output{
+    background-color: white;
+font-weight: bold;
+font-size: xx-large;
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+height: 45px;
+color: black;
+width: 50%;
+ display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#conv:hover{
+    background-color: black;
+    color: white;
+}
